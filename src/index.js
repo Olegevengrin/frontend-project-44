@@ -14,7 +14,7 @@ export default (task, startRound) => {
     const userAnswer = readLineSync.question('Your answer: ');
     if (userAnswer !== isAnswer) {
       console.log(`${userAnswer} is wrong answer ;(. Correct answer was ${isAnswer}`);
-      console.log(`Let's try again ${userName}`);
+      console.log(`Let's try again, ${userName}!`);
       return;
     }
     console.log('Correct ');
