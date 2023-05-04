@@ -20,5 +20,5 @@ export default (task, startRound) => {
     console.log('Correct ');
   }
 
-  console.log(`Congratulations ${userName}`);
+  console.log(`Congratulations, ${userName}`);
 };
