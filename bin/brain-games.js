@@ -1,5 +1,5 @@
-#!/usr/bin/env node 
-import {questionName} from '../src/cli.js'
+#!/usr/bin/env node
+import { questionName } from '../src/cli.js';
 
-console.log('Welcome to Brain Games!')
-questionName()
+console.log('Welcome to Brain Games!');
+questionName();
